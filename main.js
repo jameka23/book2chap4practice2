@@ -14,8 +14,8 @@ const takeNumber = function (band) {
         Write your awesome code here. See comments
         below for what should be returned.
     */
-   console.log(`${bandNumber}. ${band}`);
-   bandNumber ++;
+//    console.log(`${bandNumber}. ${band}`);
+   return bandNumber ++  + "." + " " + band;
 }
 
 const scum = takeNumber("Galactic Scum")
